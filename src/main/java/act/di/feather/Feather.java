@@ -299,7 +299,7 @@ public class Feather {
 
     private static boolean fieldInjectionDetected(Key key) {
         Class c = key.type;
-        while (c != Object.class) {
+        while (c != Object.class && c != null) {
             Field[] fa = c.getDeclaredFields();
             for (Field f : fa) {
                 if (f.isAnnotationPresent(Inject.class)) {
