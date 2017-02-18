@@ -2,4 +2,4 @@
 
 **IMPORTANT NOTICE**
 
-`act-feather` module has been obsolete and replaced with [Genie](https://github.com/osglworks/java-di) based DI solution
+`act-feather` module is obsolete and replaced with [Genie](https://github.com/osglworks/java-di) based DI solution
